@@ -8,10 +8,10 @@ public class TestIncrement {
 		int iInc; // Declare the value of iInc
 		
 		iInc = i++; // the result of iInc = i++
-		System.out.println("The result of i++ is " + iInc);
+		System.out.println("The result of i++ is " + iInc + " and the result of i is = "+ i);
 		
 		iInc = ++i; // the result of iInc = ++i
-		System.out.println("The result of ++i is " + iInc);
+		System.out.println("The result of ++i is " + iInc + " and the result of i is = "+ i);
 	}	
 
 }
